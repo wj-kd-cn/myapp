@@ -71,7 +71,7 @@ export default class Lifetimer extends React.Component{
       console.log('Lifetimer--->render')
       const {count} = this.state
       return(
-        <div id='app'>
+        <div >
 
           <h2 className='h2'>当前页面合计{count}</h2>
           <button onClick={this.count} className='button'>点我+1</button>
